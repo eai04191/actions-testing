@@ -13,4 +13,4 @@ jobs:
       - name: Check code format with csharpier
         run: |
           dotnet tool restore
-          dotnet-csharpier --check .
+          dotnet tool run dotnet-csharpier --check .
